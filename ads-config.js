@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ==============================================================================
  * TechPulse - HilltopAds Monetization Configuration & Integration Script
  * ==============================================================================
@@ -45,9 +45,9 @@ const HILLTOP_ADS_CONFIG = {
     zoneId: "YOUR_IPP_ZONE_ID", // e.g. "234567"
     scriptUrl: "https://example-hilltopads-cdn.com/ipp-multitag.js",
     position: "bottom-right", // "bottom-right" or "bottom-left"
-    demoTitle: "⚡ Breaking AI Alert",
+    demoTitle: "âš¡ Breaking AI Alert",
     demoMessage: "New open-source LLM beats proprietary models in coding benchmarks. Read analysis.",
-    demoIcon: "⚡",
+    demoIcon: "âš¡",
     demoTime: "Just now"
   },
 
@@ -109,7 +109,7 @@ const HILLTOP_ADS_CONFIG = {
   // ----------------------------------------------------------------------------
   zone6_videoVAST: {
     enabled: true,
-    vastTagUrl: "https://example-hilltopads-vast.com/vast.xml?zone=YOUR_VAST_ZONE_ID", // Replace with HilltopAds VAST Tag URL
+    vastTagUrl: "https://faithfuloccasion.com/dumgF/z.d/GKNwvtZtG/UC/ge/mQ9KuHZBU-lwkjP/T_ce1QNsD/Qs5vMVD/UntRNDznUJ0xNnDtkPwBOgQe", // Replace with HilltopAds VAST Tag URL
     videoPlayerId: "techpulse-main-player",
     adOverlayId: "vast-ad-overlay",
     skipTimeSeconds: 5,
@@ -354,7 +354,7 @@ class HilltopAdsManager {
                 <div class="slider-radar-animation">
                   <div class="radar-circle"></div>
                   <div class="radar-pulse"></div>
-                  <span class="radar-icon">▶</span>
+                  <span class="radar-icon">â–¶</span>
                 </div>
                 <div class="slider-video-overlay">
                   <span class="slider-tag">Featured Tech Showcase</span>
@@ -571,3 +571,4 @@ document.addEventListener("DOMContentLoaded", () => {
   window.techPulseAds = new HilltopAdsManager(HILLTOP_ADS_CONFIG);
   window.techPulseAds.init();
 });
+
